@@ -25,8 +25,8 @@ function FileUpload() {
 
     return (
         <div className="App" >
-            <input type="file" class="form-control-file" onChange={saveFile} />
-            <button class="btn btn-success" onClick={uploadFile}>Upload</button>
+            <input type="file" className="form-control-file" onChange={saveFile} />
+            <button className="btn btn-success" onClick={uploadFile}>Upload</button>
         </div>
     );
 }
